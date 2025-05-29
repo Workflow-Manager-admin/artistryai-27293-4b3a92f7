@@ -5,21 +5,23 @@ import InteractiveTutorials from "./components/InteractiveTutorials";
 import ProgressTracking from "./components/ProgressTracking";
 
 // PUBLIC_INTERFACE
+/**
+ * ArtistryAI App - minimalist main container.
+ * - Navbar is reduced to just the logo, centered.
+ * - Workspace is centered, spacious, and uncluttered.
+ */
 function App() {
   return (
     <div className="app">
+      {/* Unobtrusive top navbar, logo only, perfectly centered */}
       <nav className="navbar" aria-label="Main">
-        <div className="container navbar-inner">
+        <div className="navbar-logo-center">
           <div className="logo" tabIndex="0">
             <span className="logo-symbol" aria-hidden="true">✦</span>
             <span className="logo-appname">ArtistryAI</span>
           </div>
-          <div className="nav-minimal">
-            {/* Future: Add minimalist nav icons or settings if needed */}
-          </div>
         </div>
       </nav>
-
       <main className="main-container">
         <section className="workspace-section" aria-label="Workspace">
           <div className="workspace">

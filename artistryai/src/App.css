@@ -2,8 +2,8 @@ n:root {
   --primary: #000000;
   --secondary: #222222;
   --accent-gradient: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
-  --text-color: #fafafa;
-  --text-secondary: #cccccc;
+  --text-color: #ffffff;           /* PURE WHITE for maximum contrast */
+  --text-secondary: rgba(255,255,255,0.75); /* Light gray for secondary, higher contrast */
   --border-color: #333333;
   --main-bg: #000000;
   --secondary-bg: #222222;
@@ -11,10 +11,8 @@ n:root {
   --feature-card-border: #363636;
 }
 
-/* For accessibility: enforce minimum contrast ratios,
-   using white text on black, light text on #222, and darker
-   light gray for secondary text. */
-
+/* For accessibility: enforce maximum contrast ratios,
+   using white text on black, and light gray for secondary text. */
 
 body {
   margin: 0;

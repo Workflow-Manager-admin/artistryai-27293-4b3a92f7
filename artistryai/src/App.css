@@ -159,6 +159,8 @@ body {
   justify-content: flex-start;
   text-align: center;
   transition: box-shadow 0.2s;
+  color: var(--text-color);
+  font-family: inherit;
 }
 
 .feature-card h2 {
@@ -166,19 +168,21 @@ body {
   margin-bottom: 14px;
   font-size: 1.3rem;
   font-weight: 700;
-  background: var(--gradient-accent);
+  background: var(--accent-gradient);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.01em;
+  font-family: inherit;
 }
 
 .feature-description {
   color: var(--text-secondary);
-  font-size: 1.03rem;
+  font-size: 1.04rem;
   margin-bottom: 0;
   font-family: inherit;
+  font-weight: 400;
 }
 
 @media (max-width: 900px) {

@@ -36,7 +36,7 @@ body {
 /* Minimalist navigation bar styles */
 .navbar {
   background: transparent;
-  color: var(--text-color);
+  color: #ffffff !important;
   border-bottom: none;
   box-shadow: none;
   min-height: 56px;

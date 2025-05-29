@@ -223,6 +223,13 @@ body {
   display: none !important;
 }
 
+/* Global fallback: all headings, paragraphs, text default to white */
+h1, h2, h3, h4, h5, h6, p, label, span, div, a {
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
 /* Accessibility: Focus styles for logo */
 .logo:focus-visible {
   outline: 2px solid #ff6a00;

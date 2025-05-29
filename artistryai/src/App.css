@@ -208,6 +208,28 @@ body {
 
 /* Accessibility: Focus styles for logo */
 .logo:focus-visible {
-  outline: 2px solid var(--kavia-orange);
+  outline: 2px solid #ff6a00;
   outline-offset: 2px;
+}
+
+/* Accessibility: high-contrast focus for cards and buttons (if added in future) */
+.feature-card:focus-within,
+.feature-card:focus {
+  outline: 2px solid #ff6a00;
+  outline-offset: 3px;
+}
+
+/* Placeholder for a minimalist button in the future */
+.btn,
+.btn-large {
+  font-family: inherit;
+  background: var(--accent-gradient);
+  color: #fff;
+  border: none;
+  border-radius: 1.25em;
+  padding: 0.58em 1.4em;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 7px 0 rgba(10,10,10,0.08);
 }

@@ -1,15 +1,20 @@
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #111111;
+n:root {
+  --primary: #000000;
+  --secondary: #222222;
+  --accent-gradient: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
   --text-color: #fafafa;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.06);
+  --text-secondary: #cccccc;
+  --border-color: #333333;
   --main-bg: #000000;
   --secondary-bg: #222222;
-  --gradient-accent: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
-  --feature-card-bg: rgba(22,22,22,0.8);
-  --feature-card-border: rgba(255,255,255,0.07);
+  --feature-card-bg: rgba(34,34,34,0.92);
+  --feature-card-border: #363636;
 }
+
+/* For accessibility: enforce minimum contrast ratios,
+   using white text on black, light text on #222, and darker
+   light gray for secondary text. */
+
 
 body {
   margin: 0;

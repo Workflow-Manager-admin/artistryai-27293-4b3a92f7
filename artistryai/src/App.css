@@ -163,11 +163,22 @@ body {
   justify-content: flex-start;
   text-align: center;
   transition: box-shadow 0.2s;
-  color: var(--text-color);
+  color: #ffffff !important;      /* All content in cards defaults to white text */
   font-family: inherit;
   background-clip: padding-box;
 }
 
+/* All headings except those using background/clip should be white */
+.feature-card h1,
+.feature-card h2,
+.feature-card h3,
+.feature-card h4,
+.feature-card h5,
+.feature-card h6 {
+  color: #ffffff;
+}
+
+/* The specific gradient-styled heading keeps accent style for visual pop */
 .feature-card h2 {
   margin-top: 0;
   margin-bottom: 10px;
@@ -182,8 +193,10 @@ body {
   font-family: inherit;
 }
 
+/* Regular feature-card paragraph/description is readable on black bg */
+.feature-card p,
 .feature-description {
-  color: var(--text-secondary);
+  color: #ffffff;
   font-size: 1.025rem;
   margin-bottom: 0;
   font-family: inherit;

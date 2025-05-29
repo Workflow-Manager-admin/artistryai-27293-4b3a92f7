@@ -31,6 +31,8 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--main-bg);
+  font-family: inherit;
+  color: var(--text-color);
 }
 
 .navbar {

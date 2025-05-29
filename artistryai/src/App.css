@@ -18,9 +18,10 @@ n:root {
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', 'Arial', 'Liberation Sans', 'Segoe UI', sans-serif !important;
   background: var(--main-bg);
   color: var(--text-color);
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
